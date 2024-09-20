@@ -1,6 +1,7 @@
 from subclases.coche import Coche
 from subclases.bicicleta import Bicicleta
 from subsubclases.camioneta import Camioneta
+from subsubclases.motocicleta import Motocicleta
 
 
 if __name__ == "__main__":
@@ -10,4 +11,6 @@ if __name__ == "__main__":
     print (mi_vehiculo2)
     mi_vehiculo3 = Camioneta("Ford", "Fiesta", 1000)
     print (mi_vehiculo3)
-    
+    mi_vehiculo4 = Motocicleta("Negra", 2, 220, 1000)
+    print (mi_vehiculo4)
+
