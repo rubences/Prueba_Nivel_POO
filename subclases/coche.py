@@ -11,5 +11,3 @@ class Coche(Vehiculo):
 
 	def __str__(self):
 		return "color {}, {} km/h, {} ruedas, {} cc".format(self.color, self.velocidad, self.ruedas, self.cilindrada)
-coche = Coche("azul", 150, 4, 1200)
-print(coche)

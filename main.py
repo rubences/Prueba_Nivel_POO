@@ -9,8 +9,10 @@ if __name__ == "__main__":
     print(mi_vehiculo)
     mi_vehiculo2 = Bicicleta("Azul", "Montaña", "Azul", "Deportiva")
     print(mi_vehiculo2)
-    mi_vehiculo3 = Camioneta("Ford", "Fiesta", 1000)
-    print (mi_vehiculo3)
-    mi_vehiculo4 = Motocicleta("Negra", 2, 220, 1000)
-    print (mi_vehiculo4)
+    mi_vehiculo3 = Camioneta("Ford", "Fiesta", 1000, 160, 2500)
+    print(mi_vehiculo3)
+    mi_vehiculo4 = Motocicleta("Yamaha", "Negra", "Deportiva", 2, 1000, "Deportiva")
+    print(mi_vehiculo4)
+
+
 
