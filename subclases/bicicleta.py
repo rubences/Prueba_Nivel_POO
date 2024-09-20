@@ -1,8 +1,10 @@
-class Bicicleta:
-    def __init__(self, marca, modelo, color, tipo):
+from superclases.vehiculo import Vehiculo
+
+class Bicicleta(Vehiculo):
+    def __init__(self, marca, modelo, color, tipo, ruedas):
+        super().__init__(color, ruedas)
         self.marca = marca
         self.modelo = modelo
-        self.color = color
         self.tipo = tipo
 
     def arrancar(self):
@@ -12,4 +14,4 @@ class Bicicleta:
         print(f"La bicicleta {self.marca} {self.modelo} está frenando.")
 
     def __str__(self):
-        return f"Bicicleta(marca={self.marca}, modelo={self.modelo}, color={self.color}, tipo={self.tipo})"
+        return f"Bicicleta(marca={self.marca}, modelo={self.modelo}, color={self.color}, tipo={self.tipo}, ruedas={self.ruedas})"

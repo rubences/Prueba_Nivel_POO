@@ -4,8 +4,7 @@ from superclases.vehiculo import Vehiculo
 
 class Coche(Vehiculo):
 	def __init__(self, color, ruedas, velocidad, cilindrada):
-		self.color = color
-		self.ruedas = ruedas
+		super().__init__(color, ruedas)
 		self.velocidad = velocidad
 		self.cilindrada = cilindrada
 
