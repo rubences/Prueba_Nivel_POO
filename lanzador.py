@@ -10,7 +10,7 @@ def lanzador_main():
     vehiculos.append(mi_vehiculo)
     print(mi_vehiculo)
 
-    mi_vehiculo2 = Bicicleta("Azul", "Montaña", "Azul", "Deportiva")
+    mi_vehiculo2 = Bicicleta("Azul", "Montaña", "Azul", "Deportiva",2)
     vehiculos.append(mi_vehiculo2)
     print(mi_vehiculo2)
 
@@ -18,7 +18,8 @@ def lanzador_main():
     vehiculos.append(mi_vehiculo3)
     print(mi_vehiculo3)
 
-    mi_vehiculo6 = Bicicleta("Rojo", "Carretera", "Rojo", "Competición")
+    mi_vehiculo6 = Bicicleta("Rojo", "Carretera", "Rojo", "Competición",2)
+    
     vehiculos.append(mi_vehiculo6)
     print(mi_vehiculo6)
 
@@ -27,6 +28,7 @@ def lanzador_main():
     print(mi_vehiculo7)
 
     mi_vehiculo8 = Motocicleta("Honda", "Blanca", "Touring", 2, 1200, "Touring")
+
     vehiculos.append(mi_vehiculo8)
     print(mi_vehiculo8)
 

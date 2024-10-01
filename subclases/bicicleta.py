@@ -6,6 +6,7 @@ class Bicicleta(Vehiculo):
         self.marca = marca
         self.modelo = modelo
         self.tipo = tipo
+        self.ruedas = ruedas
 
     def arrancar(self):
         print(f"La bicicleta {self.marca} {self.modelo} está lista para rodar.")
